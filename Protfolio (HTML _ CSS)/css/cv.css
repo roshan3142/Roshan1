@@ -1,0 +1,95 @@
+.resume {
+  color: red !important;
+}
+
+.resume_section {
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.resume_saying {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  padding-bottom: 4rem;
+}
+
+.resume_red {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: red;
+}
+
+.resume_black {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.timeline {
+  padding: 2rem;
+}
+
+.timeline_head {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.timeline_ul {
+  list-style: none;
+  line-height: 1.8rem;
+}
+
+.timeline_li {
+  padding-left: 5rem;
+  position: relative;
+}
+
+.timeline_date {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+.timeline_line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2rem;
+}
+
+.timeline_line::before {
+  content: "";
+  position: absolute;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 30px;
+  background-color: red;
+}
+
+.timeline_line::after{
+    content: "";
+    position: absolute;
+    width: 0.5rem;
+    background-color: #ddd;
+    left: 0.7rem;
+    bottom: 0;
+    top: 3rem;
+}
+
+.timeline_title{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 1.6rem 0;
+}
+
+.timeline_paragraph{
+    font-size: 1.6rem;
+    color: rgb(36, 36, 36);
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    line-height: 2.2rem;
+    word-break: break-all;
+}

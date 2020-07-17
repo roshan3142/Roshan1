@@ -1,0 +1,102 @@
+.portfolio {
+  color: red !important;
+}
+
+.portfolio_section {
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.portfolio_saying {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  padding-bottom: 4rem;
+}
+
+.portfolio_red {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: red;
+}
+
+.portfolio_black {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.project_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single_card {
+  margin-bottom: 6rem;
+}
+
+.single_card:hover {
+  box-shadow: 6px 8px 6px -6px red;
+}
+
+.card_container {
+  box-shadow: 2px 8px 6px -6px #777;
+}
+
+.card_image img {
+  width: 45rem;
+  height: 22rem;
+  object-fit: cover;
+}
+
+.card_pl {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.card_pl_name {
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 2px;
+  margin-right: 1.8rem;
+}
+
+.color-1 {
+  background-color: indianred;
+}
+
+.color-2 {
+  background-color: blueviolet;
+}
+
+.color-3 {
+  background-color: royalblue;
+}
+
+.color-a {
+  color: salmon;
+}
+
+.color-b {
+  color: seagreen;
+}
+
+.card_name {
+  font-size: 1.8rem;
+  padding: 1.4rem 1rem;
+  font-weight: 600;
+  border-bottom: 1px solid #ddd;
+}
+
+.card_link a {
+  text-decoration: none;
+}
+
+.card_website,
+.card_github {
+  font-size: 1.6rem;
+  padding: 1.4rem 1rem;
+  display: inline-block;
+}

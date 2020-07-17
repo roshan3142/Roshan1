@@ -1,0 +1,141 @@
+.about {
+  color: red !important;
+}
+
+.about_section {
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.about_saying {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  padding-bottom: 4rem;
+}
+
+.about_red {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: red;
+}
+
+.about_black {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.about_us {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about_left {
+  flex: 1.8;
+}
+
+.about_title {
+  font-size: 3.2rem;
+}
+
+.about_paragraph {
+  font-size: 1.6rem;
+  color: #444;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  line-height: 2.4rem;
+}
+
+.about_download {
+  font-size: 2rem;
+  margin: 4rem 0;
+  color: red;
+}
+
+.download_text {
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  color: red;
+  text-decoration: none;
+}
+
+.about_right {
+  flex: 1;
+}
+
+.about_right {
+  height: 50rem;
+}
+
+.about_right img {
+  max-height: 100%;
+
+  object-fit: cover;
+}
+
+.skill_section {
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.skill_title_head {
+  width: 80%;
+  margin-top: 10rem;
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.skill_bar {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.skill_left {
+  flex: 1;
+}
+
+.skill_right {
+  flex: 1;
+}
+
+.skill_title {
+  font-size: 2.4rem;
+  padding: 2rem 0 1.5rem 0;
+  width: 80%;
+  border-bottom: 1px solid rgba(95, 88, 88, 0.589);
+}
+
+.skill_progress {
+  width: 80%;
+  margin: 2rem 0;
+}
+
+.skill_progress_title {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 0.6rem;
+  display: inline-block;
+}
+
+.skill_progress_percent {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 0.6rem;
+  float: right;
+}
+
+.skill_bar_progress {
+  width: 100%;
+  background-color: white;
+  border-radius: 0px;
+  border: 2px solid #ddd;
+}
+
+.skill_bar_fill {
+  display: block;
+  background-color: rgb(190, 54, 54);
+  border-radius: 0px;
+  height: 2.3rem;
+}

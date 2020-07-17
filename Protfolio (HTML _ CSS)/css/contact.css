@@ -1,0 +1,134 @@
+.contact {
+  color: red !important;
+}
+
+.contact_detail {
+  margin-top: 10rem;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.contact_saying {
+  width: 50%;
+  margin: 10rem 0;
+}
+
+.red_saying {
+  font-size: 3.6rem;
+  color: red;
+  display: block;
+  font-weight: 800;
+}
+
+.black_saying {
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: black;
+}
+
+.form_paragraph {
+  font-size: 1.6rem;
+  padding: 4rem 0;
+  padding-right: 4rem;
+  margin-bottom: 2rem;
+  color: #777;
+  line-height: 1.8;
+}
+
+.contact_detail_inner {
+  font-size: 1.6rem;
+}
+
+.email {
+  margin-bottom: 2rem;
+}
+
+.email_span,
+.num_span {
+  color: #777;
+  font-size: 1.6rem;
+  display: block;
+}
+
+.actual_email,
+.actual_num {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #000;
+}
+
+.social_contact {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.social {
+  list-style: none;
+  font-size: 3rem;
+}
+
+.social_li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+
+.social_li a {
+  color: black;
+}
+
+.social_li a:hover {
+  color: red;
+}
+
+.contact_form {
+  width: 50%;
+  margin-top: 22rem;
+}
+
+.input {
+  margin-bottom: 2rem;
+}
+
+.input_text {
+  font-size: 1.8rem;
+  width: 80%;
+  height: 4.2rem;
+  border: 1px solid rgb(158, 154, 154);
+  padding-left: 1.7rem;
+  border-radius: 0;
+  outline: none;
+  background-color: white;
+  display: block;
+}
+
+#detail {
+  height: 16rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input_text:focus {
+  border: 1px solid red;
+}
+
+.submit_button {
+  background-color: red;
+  color: white;
+  font-size: 1.8rem;
+  padding: 1.4rem 2rem;
+  border-radius: 0;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submit_button:hover {
+  background-color: rgb(194, 32, 32);
+  color: white;
+}

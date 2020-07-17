@@ -1,0 +1,212 @@
+/* header  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.header {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 8rem;
+}
+
+.nav__logo img {
+  height: auto;
+}
+
+.ul_lists {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+
+.li_item_new {
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.li_item_new a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+}
+
+.li_item_new a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+/* image section  */
+.image_section {
+  background-image: url(../images/landing_page/darkBlue.jpeg);
+  height: 40vh;
+  background-size: cover;
+  background-position: left;
+}
+
+.image_text {
+  font-size: 3.6rem;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+}
+
+.span_text {
+  color: red;
+}
+
+/* footer  */
+
+.footer_contact {
+  margin-top: 10rem;
+  background-color: black;
+}
+
+.footer_top {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.footer_left {
+  width: 60%;
+  padding: 4rem 8rem 2rem 8rem;
+}
+
+.footer_right {
+  width: 40%;
+  padding: 4rem 8rem 2rem 8rem;
+}
+
+.footer_left_text {
+  font-size: 4rem;
+  color: red;
+  font-weight: 800;
+}
+.footer_left_text span {
+  font-weight: 200;
+}
+
+.footer_links {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+
+.footer_links_ul {
+  list-style: none;
+}
+
+.footer_link_li {
+  padding-right: 4rem;
+  display: inline-block;
+}
+
+.footer_link_text {
+  text-decoration: none;
+  color: rgb(197, 181, 181);
+}
+
+.footer_link_text:hover {
+  color: red;
+}
+
+.footer_right_text {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.footer_right_text {
+  padding-top: 1rem;
+  font-weight: 400;
+  color: rgb(197, 181, 181);
+}
+
+.subscribe_button {
+  padding: 2rem;
+  padding-left: 0;
+}
+
+.sub_input {
+  font-size: 1.8rem;
+  height: 4.2rem;
+  width: 70%;
+  border: 1px solid rgb(158, 154, 154);
+  padding-left: 1.7rem;
+  border-radius: 0;
+  outline: none;
+  background-color: white;
+}
+
+.sub_button {
+  font-size: 1.8rem;
+  height: 4.2rem;
+  width: 30%;
+  border: 1px solid rgb(158, 154, 154);
+  text-align: center;
+  border-radius: 0;
+  outline: none;
+  background-color: white;
+  font-weight: 600;
+}
+
+.sub_button:hover {
+  color: red;
+}
+
+.form_subs {
+  display: flex;
+}
+
+.footer_bottom {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 8rem 0rem 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid rgb(112, 101, 101);
+  font-size: 1.6rem;
+}
+
+.footer_social {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.footer_social_li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.footer_social_li a {
+  color: white;
+  font-size: 2rem;
+}
+
+.footer_social_li a:hover {
+  color: red;
+}

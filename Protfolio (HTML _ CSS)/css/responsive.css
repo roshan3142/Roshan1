@@ -1,0 +1,265 @@
+/* index page */
+
+/* responsive at mobile */
+@media only screen and (max-width: 640px) {
+  body {
+    background-position: center;
+    overflow-x: hidden;
+  }
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 100;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .nav__logo img {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .li_item {
+    padding: 1rem;
+    padding-right: 0.5rem;
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  .social_icon {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .icon i {
+    font-size: 2rem;
+    padding-right: 0rem;
+    color: white;
+  }
+
+  .footer {
+    margin-top: 0px;
+  }
+}
+
+/* contact page  */
+
+/* responsive at mobile  */
+
+@media only screen and (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav {
+    padding: 0px;
+  }
+
+  .nav__logo {
+    width: 100%;
+    text-align: center;
+  }
+  .ul_lists {
+    justify-content: unset;
+  }
+
+  .li_item {
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .image_section {
+    height: 60vh;
+  }
+
+  .image_text {
+    padding-left: 0;
+    flex-flow: column;
+    padding-top: 40%;
+  }
+
+  .contact_detail {
+    width: 80%;
+    margin-top: 5rem;
+  }
+
+  .contact_saying,
+  .contact_form {
+    width: 100%;
+  }
+  .contact_saying {
+    margin: 0;
+  }
+  .contact_form {
+    margin-top: 8rem;
+  }
+
+  .input_text {
+    width: 100%;
+  }
+
+  .footer_contact {
+    margin-top: 5rem;
+  }
+
+  .footer_top {
+    display: block;
+  }
+
+  .footer_left {
+    width: 100%;
+    padding: 2rem 4rem;
+  }
+
+  .footer_right {
+    width: 100%;
+  }
+
+  .footer_link_li {
+    padding-right: 1rem;
+  }
+
+  .footer_right {
+    padding: 2rem 4rem;
+  }
+  .subscribe_button {
+    padding-right: 1rem;
+  }
+
+  .form_subs {
+    flex-direction: column;
+  }
+  .sub_input {
+    width: 100%;
+  }
+  .sub_button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .footer_bottom {
+    margin: 2rem;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+
+  .footer_bottom_right {
+    margin-top: 2rem;
+  }
+}
+
+/* portfolio  */
+
+/* responsive at mobile  */
+
+@media only screen and (max-width: 640px) {
+  .portfolio_section {
+    margin-top: 5rem;
+  }
+
+  .card_image img {
+    width: 29rem;
+    height: 18rem;
+  }
+
+  .single_card {
+    margin-bottom: 5rem;
+  }
+}
+
+/* resume (CV)  */
+
+/* responsive at mobile  */
+
+@media only screen and (max-width: 640px) {
+  .resume_section {
+    margin-top: 5rem;
+  }
+
+  .timeline {
+    padding: 0;
+  }
+
+  .timeline_li {
+    padding-left: 4rem;
+  }
+
+  .timeline_title {
+    font-size: 2rem;
+  }
+
+  .timeline_paragraph {
+    word-break: break-all;
+  }
+}
+
+/* about  */
+
+/* responsive at mobile  */
+@media only screen and (max-width: 640px) {
+  .about_section {
+    margin-top: 5rem;
+  }
+
+  .about_paragraph {
+    padding-right: 0px;
+    word-break: break-all;
+  }
+  .about_left {
+    flex: unset;
+  }
+
+  .about_right {
+    width: 20rem;
+    height: 45vh;
+  }
+
+  .skill_section {
+    margin-top: 5rem;
+  }
+
+  .skill_title_head {
+    margin-top: 5rem;
+    width: 100%;
+    font-size: 3.2rem;
+  }
+
+  .skill_progress_title,
+  .skill_progress_percent {
+    font-size: 1.4rem;
+  }
+
+  .skill_bar_fill {
+    height: 1.8rem;
+  }
+}
+
+/* blog  */
+
+/* responsive at mobile  */
+@media only screen and (max-width: 640px) {
+  .blog_section {
+    margin-top: 5rem;
+  }
+
+  .blog_card1 {
+    width: 100%;
+  }
+
+  .blog_card_1_img {
+    width: 100%;
+  }
+
+  .blog_detail {
+    width: 100%;
+  }
+  .card_author {
+    display: inline-block;
+    padding-bottom: 1rem;
+  }
+}
